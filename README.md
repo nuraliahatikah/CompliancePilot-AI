@@ -1,218 +1,589 @@
 # CompliancePilot AI
-An AI-powered Compliance & Contract Intelligence Platform that automatically reviews contracts, policies, and business documents, identifies compliance risks, provides explainable recommendations, and generates audit-ready reports
+### Autonomous Compliance Intelligence Workforce for Malaysian Enterprises
 
-**AI-powered Compliance & Contract Intelligence Platform** for Malaysian regulatory compliance (Employment Act 1955 & PDPA 2010).
-
-Built for hackathon demos with a fully wired Next.js 15 frontend, FastAPI backend, PostgreSQL, ChromaDB RAG, CrewAI multi-agent pipeline, and Tesseract OCR.
-
----
-
-## Architecture
-
-```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  Next.js 15     │────▶│  FastAPI Backend │────▶│  PostgreSQL     │
-│  React 19 UI    │     │  JWT + RBAC      │     │  SQLAlchemy     │
-└─────────────────┘     └────────┬─────────┘     └─────────────────┘
-                                 │
-                    ┌────────────┼────────────┐
-                    ▼            ▼            ▼
-              ┌──────────┐ ┌──────────┐ ┌──────────────┐
-              │ Tesseract│ │ ChromaDB │ │ CrewAI Agents│
-              │ OCR      │ │ RAG      │ │ (3 agents)   │
-              └──────────┘ └──────────┘ └──────────────┘
-```
-
-### Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Frontend | Next.js 15, React 19, TypeScript, Tailwind CSS, Shadcn/UI, Framer Motion, Recharts |
-| Backend | FastAPI, Python 3.11+, Uvicorn |
-| Database | PostgreSQL, SQLAlchemy |
-| Auth | JWT, Role-Based Access Control (Admin, Compliance Officer, Auditor) |
-| AI | CrewAI, LangChain, ChromaDB, Tesseract OCR |
-| Reports | ReportLab PDF generation |
-| Deploy | Docker & Docker Compose |
+> **NexHack 2026 Submission**  
+> Track 1: Agentic AI for Internal Enterprise Operations
 
 ---
 
-## Quick Start (Docker)
+## Overview
 
-### Prerequisites
+CompliancePilot AI is an AI-powered compliance review platform that helps organizations automatically analyze contracts, HR policies, compliance documents, and internal procedures against Malaysian regulations.
 
-- Docker & Docker Compose
-- (Optional) OpenAI API key for full CrewAI LLM analysis
+The platform acts as a digital compliance officer that continuously reviews documents, identifies risks, explains violations, and generates remediation recommendations.
 
-### 1. Clone and configure
+Instead of relying on expensive legal consultations and manual audits, organizations can upload documents and receive AI-generated compliance assessments within minutes.
+
+---
+
+# NexHack 2026 Alignment
+
+## Track
+
+**Track 1: Agentic AI for Internal Enterprise Operations**
+
+## Theme
+
+**Building Autonomous AI Workforce & Trusted Enterprise Ecosystems**
+
+---
+
+# Problem Statement
+
+Organizations face increasing regulatory obligations under:
+
+- Employment Act 1955
+- Personal Data Protection Act (PDPA) 2010
+- Occupational Safety & Health requirements
+- Internal governance policies
+- Industry-specific compliance frameworks
+
+Manual compliance reviews are:
+
+- Expensive
+- Slow
+- Error-prone
+- Difficult to scale
+
+Small and medium-sized businesses often lack dedicated legal and compliance teams, resulting in:
+
+- Regulatory violations
+- Financial penalties
+- Audit failures
+- Legal disputes
+
+---
+
+# Solution
+
+CompliancePilot AI provides an AI-powered compliance workforce capable of:
+
+- Automatically reviewing contracts
+- Identifying compliance violations
+- Performing risk assessments
+- Cross-referencing Malaysian regulations
+- Generating audit-ready reports
+- Providing remediation recommendations
+
+---
+
+# Key Features
+
+## AI Compliance Analysis
+
+Upload:
+
+- Employment contracts
+- HR policies
+- Internal procedures
+- Compliance documents
+
+The system automatically:
+
+- Extracts text
+- Reviews clauses
+- Identifies violations
+- Calculates risk scores
+- Produces compliance findings
+
+---
+
+## Multi-Agent Compliance Workforce
+
+CompliancePilot AI utilizes CrewAI-based autonomous agents.
+
+### Agent 1 — Legal Compliance Analyst
+
+**Responsibilities**
+
+- Reviews document clauses
+- Detects regulatory conflicts
+- Identifies legal concerns
+
+**Output**
+
+- Compliance findings
+- Regulation references
+- Clause explanations
+
+---
+
+### Agent 2 — Risk Assessment Specialist
+
+**Responsibilities**
+
+- Evaluates severity
+- Scores overall risk
+
+**Output**
+
+- Risk Score (0–100)
+- Risk Category
+  - Low
+  - Medium
+  - High
+  - Critical
+
+---
+
+### Agent 3 — Policy Recommendation Advisor
+
+**Responsibilities**
+
+- Suggests remediation actions
+- Generates recommendations
+
+**Output**
+
+- Corrective actions
+- Policy improvements
+- Risk mitigation steps
+
+---
+
+## Regulation Knowledge Base (RAG)
+
+Powered by:
+
+- LangChain
+- ChromaDB
+- Semantic Search
+
+Capabilities:
+
+- Regulation retrieval
+- Clause matching
+- Compliance justification
+- Explainable AI outputs
+
+---
+
+## OCR Document Processing
+
+Supported formats:
+
+- PDF
+- DOCX
+- TXT
+- Images
+
+Powered by:
+
+- Tesseract OCR
+- PyMuPDF
+
+Features:
+
+- Text extraction
+- Scanned document support
+- OCR fallback processing
+
+---
+
+## Risk Intelligence Dashboard
+
+Provides:
+
+- Compliance statistics
+- Risk distribution
+- Analysis history
+- Compliance trends
+
+---
+
+## PDF Audit Reports
+
+Automatically generates:
+
+- Executive summary
+- Findings
+- Risk scores
+- Recommendations
+- Compliance gaps
+
+Ready for:
+
+- Auditors
+- HR teams
+- Compliance departments
+- Management reviews
+
+---
+
+# Why CompliancePilot AI Matters
+
+## Real Business Pain Point
+
+Compliance reviews consume significant time and resources.
+
+Organizations often:
+
+- Review contracts manually
+- Depend on external consultants
+- Miss critical violations
+
+CompliancePilot AI reduces review time from hours to minutes.
+
+---
+
+## Business Impact
+
+| Metric | Traditional Process | CompliancePilot AI |
+|----------|----------|----------|
+| Review Time | 2–6 Hours | < 5 Minutes |
+| Initial Screening Cost | High | Low |
+| Scalability | Limited | High |
+| Audit Readiness | Manual | Automated |
+| Risk Visibility | Reactive | Proactive |
+
+---
+
+# System Architecture
+
+```text
+┌─────────────────────────────┐
+│        Next.js Frontend     │
+│    React + TypeScript UI    │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│        FastAPI Backend      │
+│ Authentication & API Layer  │
+└──────────────┬──────────────┘
+               │
+     ┌─────────┼─────────┐
+     ▼         ▼         ▼
+
+ PostgreSQL  ChromaDB   CrewAI
+ Database       RAG    AI Agents
+
+                         │
+                         ▼
+
+             Compliance Analysis Engine
+
+                         │
+                         ▼
+
+                PDF Report Generator
+```
+
+---
+
+# Technical Architecture
+
+## Frontend
+
+### Technologies
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Recharts
+- Framer Motion
+
+### Features
+
+- User authentication
+- Document upload
+- Dashboard analytics
+- Report downloads
+
+---
+
+## Backend
+
+### Technologies
+
+- FastAPI
+- Python 3.11
+- SQLAlchemy
+- PostgreSQL
+
+### Features
+
+- Authentication
+- Role-based authorization
+- AI orchestration
+- Document processing
+- Report generation
+
+---
+
+## AI Layer
+
+### CrewAI
+
+Multi-agent orchestration:
+
+1. Compliance Analyst
+2. Risk Assessor
+3. Recommendation Advisor
+
+### LangChain
+
+Used for:
+
+- Prompt management
+- Knowledge retrieval
+- Agent workflows
+
+### ChromaDB
+
+Used for:
+
+- Regulation indexing
+- Semantic search
+- Retrieval-Augmented Generation (RAG)
+
+### OpenAI
+
+Provides:
+
+- Advanced legal reasoning
+- Compliance explanation
+- Contextual recommendations
+
+Fallback:
+
+- Rule-based compliance engine
+
+---
+
+# Security Architecture
+
+## Authentication
+
+- JWT Access Tokens
+
+## Authorization
+
+- Admin
+- Compliance Officer
+- Auditor
+
+## Data Protection
+
+- Role-based access control
+- Secure API endpoints
+- Audit-ready workflows
+
+---
+
+# User Roles
+
+## Admin
+
+- Full system access
+- User management
+- Dashboard management
+- Demo data seeding
+
+## Compliance Officer
+
+- Upload documents
+- Run analyses
+- Generate reports
+
+## Auditor
+
+- View analyses
+- Download reports
+- Review compliance history
+
+---
+
+# Target Customers
+
+## SMEs in Malaysia
+
+Challenges:
+
+- No internal legal department
+- Limited compliance expertise
+
+## HR Departments
+
+Use Cases:
+
+- Employment contract reviews
+- Internal policy validation
+
+## Compliance Teams
+
+Use Cases:
+
+- Regulatory monitoring
+- Audit preparation
+
+## Consulting Firms
+
+Use Cases:
+
+- Client compliance screening
+- Faster audit workflows
+
+---
+
+# Business Model
+
+## Starter Plan
+
+RM49/month
+
+- 50 document analyses
+- Basic reporting
+
+## Professional Plan
+
+RM199/month
+
+- Unlimited analyses
+- PDF reporting
+- Team collaboration
+
+## Enterprise Plan
+
+Custom Pricing
+
+- Dedicated deployment
+- API integration
+- Compliance monitoring
+- Priority support
+
+---
+
+# Innovation & Differentiation
+
+Most compliance tools provide:
+
+- Static checklists
+- Keyword matching
+- Basic document storage
+
+CompliancePilot AI provides:
+
+- Autonomous AI workforce
+- Explainable AI findings
+- Risk intelligence scoring
+- Malaysian regulation-focused analysis
+- Automated audit reporting
+- RAG-powered compliance verification
+
+---
+
+# Implementation Roadmap
+
+## Phase 1 — MVP
+
+- User authentication
+- Document upload
+- OCR processing
+- Compliance analysis
+- PDF reports
+
+## Phase 2
+
+- Additional Malaysian regulations
+- Clause comparison engine
+- Real-time compliance monitoring
+
+## Phase 3
+
+- Autonomous compliance monitoring
+- Scheduled audits
+- Email alerts
+- Workflow approvals
+
+## Phase 4
+
+- ERP integrations
+- HRMS integrations
+- Government compliance APIs
+
+---
+
+# Technology Stack
+
+| Category | Technology |
+|-----------|-----------|
+| Frontend | Next.js 15, React 19 |
+| Backend | FastAPI |
+| Database | PostgreSQL |
+| AI Framework | CrewAI |
+| LLM | OpenAI |
+| RAG | LangChain + ChromaDB |
+| OCR | Tesseract OCR |
+| Reporting | ReportLab |
+| Deployment | Docker |
+
+---
+
+# Installation
+
+## Clone Repository
 
 ```bash
+git clone https://github.com/your-team/CompliancePilot-AI.git
+
 cd CompliancePilot-AI
-cp backend/.env.example backend/.env
-# Optionally set OPENAI_API_KEY in backend/.env or export it
 ```
 
-### 2. Start all services
+## Backend Setup
+
+```bash
+cd backend
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+```
+
+## Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+## Docker Deployment
 
 ```bash
 docker compose up --build
 ```
 
-### 3. Access the application
-
-| Service | URL |
-|---------|-----|
-| Frontend | http://localhost:3000 |
-| Backend API | http://localhost:8000 |
-| API Docs (Swagger) | http://localhost:8000/docs |
-| Health Check | http://localhost:8000/health |
-
-### 4. Register & demo
-
-1. Open http://localhost:3000/register
-2. **First user becomes Admin automatically**
-3. Upload `sample-documents/sample-employment-contract.txt`
-4. Wait for OCR processing (~3 seconds)
-5. Click **Run AI Analysis**
-6. Download the PDF audit report to computer
-
 ---
 
-## Local Development (without Docker)
+# Demo Flow
 
-### Backend
-
-```bash
-cd backend
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-cp .env.example .env
-
-# Requires PostgreSQL running locally
-uvicorn app.main:app --reload --port 8000
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-cp .env.local.example .env.local
-npm run dev
-```
-
----
-
-## User Roles
-
-| Role | Permissions |
-|------|-------------|
-| **Admin** | Full access, user management, audit logs, seed demo data |
-| **Compliance Officer** | Upload documents, run analysis, generate reports |
-| **Auditor** | View documents, analysis results, download reports |
-
----
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` — Register new user
-- `POST /api/auth/login` — Login, receive JWT
-- `GET /api/auth/me` — Current user profile
-
-### Documents
-- `POST /api/documents/upload` — Upload document (multipart)
-- `GET /api/documents/` — List documents
-- `GET /api/documents/{id}` — Document detail + analysis
-- `DELETE /api/documents/{id}` — Delete document
-
-### AI Analysis
-- `POST /api/ai/analyze/{id}` — Run CrewAI compliance analysis
-- `GET /api/ai/analysis/{id}` — Get analysis results
-- `POST /api/ai/knowledge-base/query` — RAG semantic search
-- `GET /api/ai/knowledge-base/regulations` — List all regulations
-
-### Reports
-- `POST /api/reports/generate/{document_id}` — Generate PDF report
-- `GET /api/reports/{id}/download` — Download PDF
-
-### Admin
-- `GET /api/admin/dashboard` — Dashboard statistics
-- `GET /api/admin/users` — List users (Admin only)
-- `POST /api/admin/seed-demo` — Seed demo users (Admin only)
-
----
-
-## AI Pipeline
-
-### Without OpenAI API Key (Default Demo Mode)
-Uses **rule-based RAG analysis** that:
-- Pattern-matches compliance risk indicators in document text
-- Cross-references ChromaDB/keyword search against 15 Malaysian regulations
-- Produces risk scores, findings, and recommendations
-
-### With OpenAI API Key
-Activates full **CrewAI multi-agent pipeline**:
-1. **Legal Compliance Analyst** — Identifies regulatory issues
-2. **Risk Assessment Specialist** — Calculates risk score (0–100)
-3. **Policy Recommendation Advisor** — Generates remediation steps
-
-Set `OPENAI_API_KEY` in `backend/.env` or docker-compose environment.
-
----
-
-## Project Structure
-
-```
-CompliancePilot-AI/
-├── backend/
-│   ├── app/
-│   │   ├── main.py              # FastAPI application
-│   │   ├── config.py            # Settings
-│   │   ├── database.py          # SQLAlchemy setup
-│   │   ├── models.py            # ORM models
-│   │   ├── schemas.py           # Pydantic schemas
-│   │   ├── auth.py              # JWT & RBAC
-│   │   ├── routes/              # API route handlers
-│   │   ├── services/            # OCR, RAG, CrewAI
-│   │   ├── utils/               # PDF report generator
-│   │   └── data/                # Malaysian regulations seed
-│   ├── Dockerfile
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── app/                 # Next.js App Router pages
-│   │   ├── components/          # UI components
-│   │   └── lib/                 # API client & utilities
-│   ├── Dockerfile
-│   └── package.json
-├── sample-documents/            # Demo contract for testing
-├── docker-compose.yml
-└── README.md
-```
-
----
-
-## Environment Variables
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `DATABASE_URL` | `postgresql://compliance:compliance123@localhost:5432/compliancepilot` | PostgreSQL connection |
-| `SECRET_KEY` | (change in production) | JWT signing key |
-| `OPENAI_API_KEY` | (empty) | Enables CrewAI LLM pipeline |
-| `CORS_ORIGINS` | `http://localhost:3000` | Allowed frontend origins |
-| `NEXT_PUBLIC_API_URL` | `http://localhost:8000` | Backend URL for frontend |
+1. Register account
+2. Login
+3. Upload employment contract
+4. Run AI analysis
+5. Review findings
+6. Check risk score
+7. Generate PDF report
 
 ---
 
 
+
 ---
 
-## License
+# Vision
 
-MIT — Built for hackathon demonstration purposes.
+CompliancePilot AI aims to become Malaysia's first AI-powered Compliance Workforce Platform, enabling organizations to move from reactive compliance management to proactive regulatory intelligence.
+
+> **"From Manual Compliance Reviews to Autonomous Compliance Intelligence."**
+
+---
+
+## Built for NexHack 2026 🚀
+
+Building the Future of Autonomous Enterprise Operations.

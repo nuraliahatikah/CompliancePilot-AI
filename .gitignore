@@ -9,14 +9,17 @@ venv/
 # Nested duplicate clone (do not commit)
 CompliancePilot-AI/
 
+
 # Node
 node_modules/
 .next/
 .env.local
 
+
 # IDE
 .idea/
 .vscode/
+
 
 # OS
 .DS_Store

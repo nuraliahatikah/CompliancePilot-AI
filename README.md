@@ -210,16 +210,6 @@ CompliancePilot-AI/
 
 ---
 
-## Demo Script (Hackathon)
-
-1. **Landing page** — Show enterprise features overview
-2. **Register** — Create admin account
-3. **Upload** — Drag & drop `sample-employment-contract.txt`
-4. **Processing** — Show OCR extraction (auto-polls status)
-5. **Analyze** — Run AI pipeline, show risk score & findings
-6. **Knowledge Base** — Search "overtime working hours" in RAG
-7. **Analytics** — Show risk distribution charts
-8. **Report** — Download PDF audit report
 
 ---
 

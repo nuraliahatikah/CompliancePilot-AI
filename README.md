@@ -1,4 +1,5 @@
 # CompliancePilot AI
+An AI-powered Compliance & Contract Intelligence Platform that automatically reviews contracts, policies, and business documents, identifies compliance risks, provides explainable recommendations, and generates audit-ready reports
 
 **AI-powered Compliance & Contract Intelligence Platform** for Malaysian regulatory compliance (Employment Act 1955 & PDPA 2010).
 

@@ -541,18 +541,6 @@ docker compose up --build
 
 ---
 
-# NexHack 2026 Judging Alignment
-
-| Criteria                               | CompliancePilot AI                                                      |
-| -------------------------------------- | ----------------------------------------------------------------------- |
-| Problem Relevance & Impact             | Automates compliance reviews and reduces regulatory risks               |
-| Technical Architecture & Execution     | Full-stack AI platform with OCR, RAG, PostgreSQL, FastAPI and AI Agents |
-| Market Adoption & Commercial Potential | SaaS business model targeting SMEs and enterprises                      |
-| Innovation & Differentiation           | Autonomous compliance workforce with explainable AI                     |
-| Presentation & Demonstration           | End-to-end working prototype with real-world use cases                  |
-
----
-
 # Team Vision
 
 CompliancePilot AI aims to become Malaysia's leading AI-powered Compliance Workforce Platform, enabling organizations to transition from reactive compliance management to proactive compliance intelligence.

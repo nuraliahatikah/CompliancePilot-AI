@@ -1,0 +1,25 @@
+ABC TECHNOLOGIES SDN BHD CORPORATE OSHE POLICY MANUAL
+
+1. GOVERNING PRINCIPLE AND WORKPLACE WELFARE
+In strict accordance with Section 15 of the Occupational Safety and Health Act 1994, ABC Technologies Sdn Bhd is fundamentally committed to ensuring, so far as is practicable, the safety, health, and welfare of all employees, contractors, and visitors. The Company shall provide and maintain safe systems of work, eliminate workplace hazards, and provide the continuous information, specialized training, and oversight necessary to secure an incident-free environment.
+
+2. MANDATORY APPOINTMENT OF SAFETY OFFICIALS
+2.1 Pursuant to Section 29A of the OSHA (Amendment) Act 2022, as an employer maintaining a workforce of five (5) or more employees, the Company shall formally appoint a competent, certified Occupational Safety and Health Coordinator (OSH Coordinator).
+2.2 The OSH Coordinator is legally empowered to administer, monitor, and audit safety protocols across all active operational sites. Non-compliance with this statutory requirement or failure to maintain an active OSH Coordinator subjects the corporate body to severe statutory penalties.
+
+3. MANDATORY COMPREHENSIVE RISK ASSESSMENT (HIRARC)
+In compliance with Section 18B of the OSHA (Amendment) Act 2022, the Company mandates that a documented Hazard Identification, Risk Assessment, and Risk Control (HIRARC) process be executed for every internal project and physical facility. Risk assessments must be routinely updated. Where risk controls are deemed necessary, management must immediately deploy engineering or administrative safeguards to reduce workplace danger to a negligible level.
+
+4. EMPLOYEE RIGHT TO REFUSE IMMINENT DANGER
+Pursuant to Section 26A of the OSHA (Amendment) Act 2022, any employee who encounters a clear, unrectified hazard has the explicit legal right to remove themselves from that imminent danger or place of work. Management is strictly prohibited from executing disciplinary retaliation, wage docking, or employment termination against any worker who exercises this statutory safety right in good faith.
+
+5. SCHEDULED ENVIRONMENTAL WASTE MANAGEMENT
+5.1 Operating under the Environmental Quality Act 1974 and the Scheduled Wastes Regulations 2005, the Company enforces an absolute zero-tolerance policy against unauthorized toxic discharge and open burning. Pursuant to Section 29A of the EQA (Amendment) Act 2024, open burning in any format on company premises is a criminal offense.
+5.2 All generated hazardous and scheduled chemical wastes must be inventoried, labeled, and reported to the Director General of Environmental Quality within thirty (30) days of generation.
+5.3 In compliance with Section 25 of the EQA (Amendment) Act 2024, under no circumstances shall corporate waste be emitted, discharged, or deposited into inland waters. Any violations of this environmental standard trigger immediate corporate liability up to the statutory ceiling of ten million ringgit (RM10,000,000) alongside mandatory executive imprisonment.
+
+6. MANDATORY ENVIRONMENTAL IMPACT ASSESSMENTS (EIA)
+Prior to undertaking any heavy technological deployment or prescribed physical expansion, the facilities team must submit a formal Environmental Impact Assessment (EIA) report to the Department of Environment. In alignment with Section 34A of the EQA (Amendment) Act 2024, no construction or project activation shall begin without formal validation and written approval of the EIA report from the Director General.
+
+Effective Date: 1 January 2026
+Approved by: Chief Operations Officer & OSHE Board Chairman

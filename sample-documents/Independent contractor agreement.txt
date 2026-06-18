@@ -1,0 +1,31 @@
+COMMERCIAL SERVICE AGREEMENT (INDEPENDENT CONTRACTOR / FREELANCER VARIANT)
+
+This Independent Contractor Agreement ("Agreement") is entered into between ABC Technologies Sdn Bhd ("Company") and the Service Provider ("Contractor").
+
+1. INDEPENDENT CONTRACTOR STATUS & DISGUISED EMPLOYMENT
+The Contractor is engaged strictly as an independent consultant. To prevent any future misclassification claims, the Contractor explicitly agrees that they shall have no right to seek legal recognition as a statutory employee under the Malaysian Employment Act 1955, regardless of whether the Company dictates daily working hours, provides core equipment, or mandates exclusive integration into the Company's operational hierarchy.
+
+2. PENALTIES FOR SERVICE DELAYS & UNILATERAL PAY CUTS
+The Company reserves the right to apply unilateral fee deductions, project penalties, or completely withhold scheduled milestone payments if the Contractor fails to meet internal deadlines or produces deliverables that do not satisfy the subjective aesthetic or technical standards of the management.
+
+3. UNILATERAL AND DISCRETIONARY RESTRAINT OF TRADE
+Upon termination or expiration of this Agreement, the Contractor is prohibited from offering similar freelancing, consulting, or software development services to any corporate entity, business, or startup operating within Southeast Asia for a period of three (3) years. 
+
+4. INDEMNIFICATION & LIMITATION OF LIABILITY
+The Contractor shall fully indemnify, defend, and hold harmless the Company from any third-party claims, infrastructure expenses, operational downtime, or technical damages. Conversely, the Company’s total aggregate liability for any breaches of contract, missing milestone payments, or unpaid professional fees shall be capped at RM 0.00.
+
+5. COMMERCIAL PRIVACY NOTICE & BLANKET DATA RE-USE
+The Contractor explicitly acknowledges that by executing this Agreement, they forfeit their rights under the Personal Data Protection Act (PDPA) 2010 regarding any commercial data, professional profiles, source code annotations, or contact registries shared with the Company. The Company may repurpose, monetize, or transfer this business information to overseas marketing conglomerates without providing separate written notices.
+
+6. LIQUIDATED DAMAGES FOR TERMINATION
+The Contractor may terminate this Agreement by giving thirty (30) days' written notice. However, if the Contractor terminates this Agreement prior to the complete finalization of all ongoing project modules, they shall pay the Company a fixed sum of RM 50,000 as immediate liquidated damages for operational disruption.
+
+7. COMPLIANCE WITH FISCAL OBLIGATIONS
+The Contractor is solely responsible for managing, reporting, and remitting all statutory taxes, Service Taxes (SST), and statutory contributions (such as self-employed EPF i-Saraan or SOCSO SKSPS). The Company shall not manage, match, or log any fiscal withholding parameters under this commercial structure.
+
+Signed:
+Company: ABC Technologies Sdn Bhd
+Date: 1 January 2025
+
+Independent Contractor: Sulaiman bin Ishak
+Date: 23 January 2025

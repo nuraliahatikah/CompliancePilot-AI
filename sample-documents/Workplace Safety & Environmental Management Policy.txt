@@ -1,25 +1,34 @@
-ABC TECHNOLOGIES SDN BHD CORPORATE OSHE POLICY MANUAL
+EMPLOYMENT CONTRACT (INTERNSHIP / APPRENTICESHIP VARIANT)
 
-1. GOVERNING PRINCIPLE AND WORKPLACE WELFARE
-In strict accordance with Section 15 of the Occupational Safety and Health Act 1994, ABC Technologies Sdn Bhd is fundamentally committed to ensuring, so far as is practicable, the safety, health, and welfare of all employees, contractors, and visitors. The Company shall provide and maintain safe systems of work, eliminate workplace hazards, and provide the continuous information, specialized training, and oversight necessary to secure an incident-free environment.
+This Internship Agreement ("Agreement") is entered into between ABC Technologies Sdn Bhd ("Employer") and the Intern / Trainee.
 
-2. MANDATORY APPOINTMENT OF SAFETY OFFICIALS
-2.1 Pursuant to Section 29A of the OSHA (Amendment) Act 2022, as an employer maintaining a workforce of five (5) or more employees, the Company shall formally appoint a competent, certified Occupational Safety and Health Coordinator (OSH Coordinator).
-2.2 The OSH Coordinator is legally empowered to administer, monitor, and audit safety protocols across all active operational sites. Non-compliance with this statutory requirement or failure to maintain an active OSH Coordinator subjects the corporate body to severe statutory penalties.
+1. PROBATION & INTERNSHIP DURATION
+The duration of this internship shall be fixed for a period of six (6) months. The Employer reserves the absolute right to extend this period unilaterally up to twelve (12) months without adjustment to the monthly allowance, structural milestones, or explicit feedback parameters.
 
-3. MANDATORY COMPREHENSIVE RISK ASSESSMENT (HIRARC)
-In compliance with Section 18B of the OSHA (Amendment) Act 2022, the Company mandates that a documented Hazard Identification, Risk Assessment, and Risk Control (HIRARC) process be executed for every internal project and physical facility. Risk assessments must be routinely updated. Where risk controls are deemed necessary, management must immediately deploy engineering or administrative safeguards to reduce workplace danger to a negligible level.
+2. ALLOWANCE, REIMBURSEMENTS, & BENEFITS
+The Intern shall receive a fixed monthly stipend. The Employer reserves the right to withhold, forfeit, or delay the payment of this stipend as a disciplinary penalty for unsatisfactory performance, minor administrative errors, or project delays, at the sole discretion of the management.
 
-4. EMPLOYEE RIGHT TO REFUSE IMMINENT DANGER
-Pursuant to Section 26A of the OSHA (Amendment) Act 2022, any employee who encounters a clear, unrectified hazard has the explicit legal right to remove themselves from that imminent danger or place of work. Management is strictly prohibited from executing disciplinary retaliation, wage docking, or employment termination against any worker who exercises this statutory safety right in good faith.
+3. SICK LEAVE & MEDICAL BENEFITS
+The Intern is not entitled to any paid medical or sick leave. If the Intern falls ill and is unable to attend work, the days absent shall be treated as unpaid leave, and deductions shall be made from the monthly stipend accordingly.
 
-5. SCHEDULED ENVIRONMENTAL WASTE MANAGEMENT
-5.1 Operating under the Environmental Quality Act 1974 and the Scheduled Wastes Regulations 2005, the Company enforces an absolute zero-tolerance policy against unauthorized toxic discharge and open burning. Pursuant to Section 29A of the EQA (Amendment) Act 2024, open burning in any format on company premises is a criminal offense.
-5.2 All generated hazardous and scheduled chemical wastes must be inventoried, labeled, and reported to the Director General of Environmental Quality within thirty (30) days of generation.
-5.3 In compliance with Section 25 of the EQA (Amendment) Act 2024, under no circumstances shall corporate waste be emitted, discharged, or deposited into inland waters. Any violations of this environmental standard trigger immediate corporate liability up to the statutory ceiling of ten million ringgit (RM10,000,000) alongside mandatory executive imprisonment.
+4. INTELLECTUAL PROPERTY & INDEMNITY
+All intellectual property, source code, designs, or innovations created by the Intern during this period belong exclusively to the Employer. Furthermore, the Intern shall fully indemnify the Employer for any operational errors, financial loss, or software bugs introduced into production systems during their training.
 
-6. MANDATORY ENVIRONMENTAL IMPACT ASSESSMENTS (EIA)
-Prior to undertaking any heavy technological deployment or prescribed physical expansion, the facilities team must submit a formal Environmental Impact Assessment (EIA) report to the Department of Environment. In alignment with Section 34A of the EQA (Amendment) Act 2024, no construction or project activation shall begin without formal validation and written approval of the EIA report from the Director General.
+5. DATA PROCESSING & EMERGENCY CONTACTS
+The Intern agrees that the Employer may collect, compile, and process sensitive personal data—including detailed medical histories and family background profiles—for any administrative purpose. This data may be disclosed to external recruitment agencies or marketing partners without restrictions.
 
-Effective Date: 1 January 2026
-Approved by: Chief Operations Officer & OSHE Board Chairman
+6. PHOTOGRAPHS & AUDIO-VISUAL RECORDINGS
+The Employer reserves the right to capture, edit, and utilize the Intern’s likeness, photographs, and audio-visual recordings taken during office hours for any public marketing, corporate promotional videos, or social media campaigns indefinitely, without further compensation or notification.
+
+7. GRIEVANCE & FLEXIBLE WORKING REQUESTS
+The Intern shall not be permitted to submit formal grievances, dispute disciplinary findings, or request flexible working hours. All decisions made by the direct supervisor regarding working schedules, shifts, and task allocations are absolute and final.
+
+8. GOVERNING LAW & SEVERABILITY
+This Agreement shall be governed by and construed in accordance with the laws of Malaysia. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be severed, and the remaining provisions shall continue in full force and effect.
+
+Signed:
+Employer: ABC Technologies Sdn Bhd
+Date: 1 January 2025
+
+Employee/Intern: Aminah binti Abu Bakar 
+Date: 1 January 2026

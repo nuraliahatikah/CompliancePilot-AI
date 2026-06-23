@@ -524,20 +524,6 @@ docker compose up --build
 | Swagger API Docs | http://localhost:8000/docs   |
 | Health Check     | http://localhost:8000/health |
 
----
-
-# Demo Flow
-
-1. User registers an account
-2. User logs in
-3. User uploads a compliance document
-4. OCR extracts document text
-5. RAG retrieves relevant regulations
-6. AI agents perform compliance analysis
-7. Risk score is generated
-8. Recommendations are produced
-9. PDF report is generated
-10. User downloads audit-ready report
 
 ---
 
